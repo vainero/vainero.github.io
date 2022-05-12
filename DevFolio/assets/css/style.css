@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #fdffcd;
-  color: #4e4e4e;
+  background-color: black;
+  color: aqua;
 }
 
 h1,
@@ -28,7 +28,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #0078ff;
+  color: aqua;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -39,16 +39,16 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #0078ff;
+  color: aqua;
 }
 
 .color-d {
-  color: #fdffcd;
+  color: black;
 }
 
 .color-text-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: aqua;
 }
 
 .box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
@@ -57,7 +57,7 @@ a:hover {
 
 .box-shadow-a, .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px black;
 }
 
 .display-5 {
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: black;
 }
 
 .overlay-mf {
@@ -155,7 +155,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: aqua;
 }
 
 .line-mf {
@@ -191,7 +191,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
+  background-color: black;
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -532,7 +532,7 @@ a:hover {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #4e4e4e;
+  color: aqua;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -623,7 +623,7 @@ a:hover {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: aqua;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #0078ff;
@@ -664,7 +664,7 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: aqua;
 }
 .hero .hero-content {
   text-align: center;
@@ -681,7 +681,7 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: #fff;
+  color: aqua;
   font-weight: 600;
   font-size: 3rem;
 }
@@ -729,7 +729,7 @@ a:hover {
   color: #cde1f8;
 }
 .hero-single .breadcrumb a {
-  color: #fff;
+  color: aqua;
 }
 
 /*--------------------------------------------------------------
@@ -753,7 +753,7 @@ a:hover {
 }
 
 .skill-mf span {
-  color: #4e4e4e;
+  color: aqua;
 }
 .skill-mf .progress {
   background-color: #cde1f8;
@@ -763,24 +763,27 @@ a:hover {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: rgba(141, 23, 141, 0.582);
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: black;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
+  color:rgba(141, 23, 141, 0.582);
+  box-shadow: inset 0 0 0 2px rgba(230, 118, 230, 0.582); 
+    
   margin-bottom: 3rem;
   text-align: center;
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  color: aqua;
+  background-color: black;
+  box-shadow: 0 0 0 5px rgba(230, 118, 230, 0.582); 
 }
 .service-box .service-ico {
   margin-bottom: 1rem;
@@ -803,14 +806,14 @@ a:hover {
   padding: 0.4rem 0;
 }
 .service-box .s-description {
-  color: #4e4e4e;
+  color: aqua;
 }
 
 /*--------------------------------------------------------------
 # Counter
---------------------------------------------------------------*/
+
 .counter-box {
-  color: #fff;
+  color: black;
   text-align: center;
 }
 @media (min-width: 577px) {
@@ -818,7 +821,6 @@ a:hover {
     margin-bottom: 1.8rem;
   }
 }
-
 .counter-ico {
   margin-bottom: 1rem;
 }
@@ -828,11 +830,11 @@ a:hover {
   line-height: 1.5;
   box-shadow: 0 0 0 10px #cde1f8;
 }
-
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
 }
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -841,10 +843,18 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: black;
+
+  box-shadow: inset 0 0 0 2px rgba(230, 118, 230, 0.582); 
+
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  color:rgba(230, 118, 230, 0.582);
+  
 }
 .work-box:hover img {
   transform: scale(1.3);
+  border-radius: 1rem;
 }
 
 .work-img {
@@ -859,19 +869,19 @@ a:hover {
   padding: 2rem 3% 1rem 4%;
 }
 .work-content .w-more {
-  color: #4e4e4e;
-  font-size: 0.8rem;
+  color: aqua;
+  font-size: 1rem;
 }
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: aqua;
 }
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: aqua;
   float: right;
 }
 .work-content .w-like a {
-  color: #0078ff;
+  color: aqua;
 }
 .work-content .w-like .num-like {
   font-size: 0.7rem;
@@ -897,12 +907,12 @@ a:hover {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: aqua;
   opacity: 1;
-  border: 1px solid #0078ff;
+  border: 1px solid rgba(230, 118, 230, 0.582);
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0078ff;
+  background-color: rgba(230, 118, 230, 0.582);;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -913,7 +923,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(230, 118, 230, 0.582);
 }
 .portfolio-details .portfolio-info ul {
   list-style: none;
