@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background-color: black;
-  color: aqua;
+  color: rgb(178, 212, 212);
 }
 
 h1,
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: aqua;
 }
 
 a {
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: black;
+  background-color: black ;
 }
 
 .overlay-mf {
@@ -137,8 +137,9 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: aqua;
   font-size: 1.1rem;
+  font-family: "Comic Sans MS";
 }
 
 /*--/ Title A /--*/
@@ -151,6 +152,8 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: "Comic Sans MS";
+  
 }
 
 .subtitle-a {
@@ -314,7 +317,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: rgba(230, 118, 230, 0.582);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -322,7 +325,7 @@ a:hover {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: aqua;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -671,7 +674,7 @@ a:hover {
   position: absolute;
 }
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  
   position: absolute;
   top: 0;
   left: 0px;
@@ -758,7 +761,7 @@ a:hover {
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
+  border-radius: 0.7rem;
   height: 0.7rem;
 }
 .skill-mf .progress .progress-bar {
@@ -916,7 +919,7 @@ a:hover {
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  box-shadow: 0px 0 30px black;
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
@@ -1292,9 +1295,10 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #fff;
-  padding: 25px 0;
-  background: #0062d3;
+  color: aqua;
+  padding: 8px 0;
+  background: rgba(230, 118, 230, 0.582);
+  
 }
 footer .copyright {
   margin-bottom: 0.3rem;
@@ -1303,5 +1307,5 @@ footer .credits {
   margin-bottom: 0;
 }
 footer .credits a {
-  color: #fff;
+  color: aqua;
 }
