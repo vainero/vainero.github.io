@@ -23,7 +23,7 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: black;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -136,7 +136,7 @@ a:hover {
 
 /*--/ Title s /--*/
 .title-s {
-  font-weight: 600;
+  font-weight: 400;
   color: aqua; /* name, profile, location, email... top skills */
   font-size: 1.1rem;
   font-family: "Comic Sans MS";
@@ -145,12 +145,13 @@ a:hover {
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
+  font-family: "Comic Sans MS"; /* under SKILLS, under PORTFOLIO */
 }
 
 .title-a {
   text-decoration: none;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: bold; /* SKILLS, PORTFOLIO */
   text-transform: uppercase;
   font-family: "Comic Sans MS";
   
@@ -158,31 +159,35 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: aqua;
+  color: rgb(178, 212, 212); /* under SKILLS, under PORTFOLIO */
+  font-size: 1rem;
+  
+  
 }
 
 .line-mf {
-  width: 40px;
-  height: 5px;
+  width: 100px;
+  height: 3px; /* under SKILLS, under PORTFOLIO */
   background-color: #0078ff;
   margin: 0 auto;
 }
 
 /*--/ Title Left /--*/
 .title-box-2 {
-  margin-bottom: 3rem;
+  margin-bottom: 3rem; /* space under ABOUT ME, under WORK WITH ME */
 }
 
 .title-left {
-  font-size: 2rem;
+  font-size: 2.5rem; /* size ABOUT ME, WORK WITH ME */
   position: relative;
+  font-family: "Comic Sans MS";
 }
 .title-left:before {
   content: "";
   position: absolute;
-  height: 3px;
-  background-color: #0078ff;
   width: 100px;
+  height: 3px;
+  background-color: #0078ff; /* line under ABOUT ME, under WORK WITH ME */
   bottom: -12px;
 }
 
@@ -220,13 +225,13 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px rgba(230, 118, 230, 0.582);
+  box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #0078ff;
-  color: #fff;
-  box-shadow: 0 0 0 3px #0078ff;
+  background-color: black;
+  color: #cde1f8;
+  box-shadow: 0 0 0 3px rgba(230, 118, 230, 0.582);
   transition: all 500ms ease;
 }
 
@@ -254,7 +259,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 7px #0078ff;
   display: block;
 }
 
@@ -280,7 +285,7 @@ a:hover {
   background-color: #cde1f8;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   width: 25px;
 }
 
@@ -312,33 +317,34 @@ a:hover {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
+  position: fixed; 
   visibility: hidden;
   opacity: 0;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgba(230, 118, 230, 0.582);
   width: 40px;
   height: 40px;
+  font-size: 1.2rem;
   border-radius: 50px;
-  transition: all 0.4s;
-}
-.back-to-top i {
-  font-size: 28px;
-  color: aqua;
-  line-height: 0;
+  line-height: 1.6;
+  transition: all 500ms ease;
+  box-shadow: 0 0 0 3px #0078ff
 }
 .back-to-top:hover {
-  background: #298eff;
-  color: #fff;
+  background-color: black;
+  color: #cde1f8;
+  font-size: 28px;
+  box-shadow: 0 0 0 3px rgba(230, 118, 230, 0.582);
+  transition: all 500ms ease;
+
 }
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+} 
 
-/*------/ Prelaoder /------*/
+/*------/ Prelaoder /------
 #preloader {
   position: fixed;
   top: 0;
@@ -380,8 +386,8 @@ a:hover {
   100% {
     transform: rotate(360deg);
   }
-}
-/*------/ Button /------*/
+} */
+/*------/ Button /------
 .button {
   display: inline-block;
   padding: 0.3rem 0.6rem;
@@ -400,7 +406,7 @@ a:hover {
   outline: 0;
 }
 .button:hover {
-  background-color: #0062d3;
+  background-color: red;
   color: #fff;
   transition: all 500ms ease;
 }
@@ -426,7 +432,7 @@ a:hover {
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
@@ -444,7 +450,8 @@ a:hover {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: #fff;
+  color: red;
+  font-family: "Comic Sans MS";
 }
 #header .logo img {
   max-height: 40px;
@@ -481,15 +488,16 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+  color: rgb(223, 59, 223);
+  font-size: 15px;
+  font-weight: 550;
   padding: 0;
   white-space: nowrap;
   transition: 0.3s;
   letter-spacing: 0.4px;
   position: relative;
   text-transform: uppercase;
+  font-family: "Comic Sans MS"
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -504,16 +512,16 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #0078ff;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
   width: 80%;
-}
+} 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: aqua; 
 }
 .navbar .dropdown ul {
   display: block;
@@ -525,10 +533,10 @@ a:hover {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #cde1f8;  /* DROP DOWN */
+  box-shadow: 0px 0px 30px black;
   transition: 0.3s;
-}
+} 
 .navbar .dropdown ul li {
   min-width: 200px;
 }
@@ -660,7 +668,7 @@ a:hover {
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
+} 
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -669,6 +677,7 @@ a:hover {
   height: 100vh;
   position: relative;
   color: black;
+  font-family: "Comic Sans MS"
 }
 .hero .hero-content {
   text-align: center;
@@ -685,9 +694,11 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: pink;
+  color: aqua;
   font-weight: 600;
   font-size: 3rem;
+  font-family: "Comic Sans MS"
+  
 }
 @media (min-width: 768px) {
   .hero .hero-title {
@@ -714,7 +725,7 @@ a:hover {
   margin-top: 30px;
 }
 .hero-single .hero-title {
-  text-transform: uppercase;
+  /*text-transform: uppercase; */
   font-size: 3rem;
 }
 @media (min-width: 768px) {
@@ -722,29 +733,30 @@ a:hover {
     font-size: 3.5rem;
   }
 }
-.hero-single .breadcrumb {
+/*.hero-single .breadcrumb {
   background-color: transparent;
   color: pink;
-}
+} */
+
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: black;
-}
+  color: #0078ff; /*slash*/
+} 
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
-}
+  color: #0078ff; /* 8bit*/
+} 
 .hero-single .breadcrumb a {
-  color: aqua;
-}
+  color: #0078ff; /*Home*/
+} 
 
 /*--------------------------------------------------------------
 # ABOUT
 --------------------------------------------------------------*/
 .about-mf .box-shadow-full {
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 14rem;
 }
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; /* space between img and progress */
 }
 .about-mf .about-img img {
   margin-left: 10px;
@@ -757,17 +769,18 @@ a:hover {
 }
 
 .skill-mf span {
-  color: black;
+  color: rgb(178, 212, 212); /*top skills: text of python, css...*/
+  
 }
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #cde1f8; /*line of the progre3ss*/
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0.7rem;
   height: 0.7rem;
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: rgba(141, 23, 141, 0.582);
+  background-color: rgba(141, 23, 141, 0.4);
 }
 
 /*--------------------------------------------------------------
@@ -785,13 +798,13 @@ a:hover {
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: aqua;
+  color: #cde1f8;
   background-color: black;
   box-shadow: 0 0 0 5px rgba(230, 118, 230, 0.582); 
 }
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: black;
 }
 .service-box .ico-circle {
   transition: all 500ms ease;
@@ -805,12 +818,15 @@ a:hover {
 }
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-align: center;
   padding: 0.4rem 0;
+  font-family: "Comic Sans MS";
 }
 .service-box .s-description {
-  color: aqua;
+  color: rgb(178, 212, 212); /*text under Machine Learning, Data Visualization*/
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 /*--------------------------------------------------------------
@@ -873,26 +889,30 @@ a:hover {
   padding: 2rem 3% 1rem 4%;
 }
 .work-content .w-more {
-  color: rgba(230, 118, 230, 0.582);
-  font-size: 1rem;
+  color: rgb(178, 212, 212); /* / 2021 */
+  font-size: 18px;
+  font-weight: lighter;
 }
 .work-content .w-more .w-ctegory {
-  color: aqua;
+  color: rgb(178, 212, 212); /* Data Visualization, Data Analysis */
+  font-size: 18px;
+  font-weight: lighter;
 }
 .work-content .w-like {
   font-size: 2.5rem;
-  color: aqua;
+  /*color: aqua;*/
   float: right;
-}
+} 
 .work-content .w-like a {
-  color: aqua;
+  color: rgba(230, 118, 230, 0.582); /* circle with + */
+  
 }
 .work-content .w-like .num-like {
   font-size: 0.7rem;
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 /*--------------------------------------------------------------
@@ -903,20 +923,27 @@ a:hover {
 }
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: aqua;
+  width: 15px;
+  height: 15px;
+  background-color: black; /*the points under the pictures*/
   opacity: 1;
-  border: 1px solid rgba(230, 118, 230, 0.582);
+  border: 2px solid #0078ff;
+  
+  
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgba(230, 118, 230, 0.582);
+  width: 15px;
+  height: 15px;
+  background-color: black; /*the points under the pictures*/
+  opacity: 1;
+  border: 2px solid rgba(230, 118, 230, 0.582);
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
