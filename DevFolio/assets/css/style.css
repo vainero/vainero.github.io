@@ -19,7 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: aqua; /*about me, skills, portfolio, work with me, thank for viziting*/
+  color: aqua; /*about me, skills, portfolio, work with me, thank for viziting, project information, details*/
+  font-family: 'Comic Sans MS';
 }
 
 a {
@@ -84,6 +85,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  
 }
 @media (max-width: 1024px) {
   .bg-image {
@@ -209,6 +211,7 @@ a:hover {
     padding: 3rem;
   }
 }
+
 
 /*------/ SOCIALS /------*/
 
@@ -450,14 +453,15 @@ a:hover {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: red;
+  color: rgb(178, 212, 212); /*logo 'Home'*/
   font-family: "Comic Sans MS";
+  font-size: 24px; /*size 'Home'*/
 }
 #header .logo img {
   max-height: 40px;
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: black;
   padding: 12px 0;
 }
 
@@ -702,7 +706,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 4.5rem; /*coming soon, data scientist...*/
   }
 }
 .hero .hero-subtitle {
@@ -739,13 +743,13 @@ a:hover {
 } */
 
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: #0078ff; /*slash*/
+  color: black; /*slash*/
 } 
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #0078ff; /* 8bit*/
+  color: black; /* 8bit*/
 } 
 .hero-single .breadcrumb a {
-  color: #0078ff; /*Home*/
+  color: black; /*Home*/
 } 
 
 /*--------------------------------------------------------------
@@ -761,7 +765,7 @@ a:hover {
 .about-mf .about-img img {
   margin-left: 10px;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
@@ -860,7 +864,7 @@ a:hover {
 # PORTFOLIO
 --------------------------------------------------------------*/
 .work-box {
-  margin-bottom: 3rem;
+  margin-bottom: 3rem; /*space between boxes of projects*/
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: black;
@@ -1329,7 +1333,7 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: aqua;
+  color: rgb(178, 212, 212);
   padding: 8px 0;
   background: black;
   border: 1px solid rgba(230, 118, 230, 0.582);
@@ -1342,5 +1346,5 @@ footer .credits {
   margin-bottom: 0;
 }
 footer .credits a {
-  color: aqua;
+  color: rgb(178, 212, 212);
 }
