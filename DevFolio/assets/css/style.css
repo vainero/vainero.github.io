@@ -169,18 +169,18 @@ a:hover {
 
 .line-mf {
   width: 100px;
-  height: 3px; /* under SKILLS, under PORTFOLIO */
+  height: 3px; /* the line under SKILLS, under PORTFOLIO */
   background-color: #0078ff;
   margin: 0 auto;
 }
 
 /*--/ Title Left /--*/
 .title-box-2 {
-  margin-bottom: 3rem; /* space under ABOUT ME, under WORK WITH ME */
+  margin-bottom: 3rem; /* space under ABOUT ME, under WORK WITH ME, under Thanks for viziting */
 }
 
 .title-left {
-  font-size: 2.5rem; /* size ABOUT ME, WORK WITH ME */
+  font-size: 2.5rem; /* size ABOUT ME, WORK WITH ME, Thanks for viziting */
   position: relative;
   font-family: "Comic Sans MS";
 }
@@ -189,7 +189,7 @@ a:hover {
   position: absolute;
   width: 100px;
   height: 3px;
-  background-color: #0078ff; /* line under ABOUT ME, under WORK WITH ME */
+  background-color: #0078ff; /* line under ABOUT ME, under WORK WITH ME, Thanks for viziting */
   bottom: -12px;
 }
 
@@ -265,6 +265,7 @@ a:hover {
   box-shadow: 0 0 0 7px #0078ff;
   display: block;
 }
+
 
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
@@ -390,7 +391,7 @@ a:hover {
     transform: rotate(360deg);
   }
 } */
-/*------/ Button /------
+/*------/ Button /------ 
 .button {
   display: inline-block;
   padding: 0.3rem 0.6rem;
@@ -527,7 +528,7 @@ a:hover {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: aqua; 
 }
-.navbar .dropdown ul {
+/*.navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 30px;
@@ -538,7 +539,7 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   background: #cde1f8;  /* DROP DOWN */
-  box-shadow: 0px 0px 30px black;
+  /*box-shadow: 0px 0px 30px black;
   transition: 0.3s;
 } 
 .navbar .dropdown ul li {
@@ -579,7 +580,7 @@ a:hover {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
-}
+} */
 
 /**
 * Mobile Navigation 
