@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: aqua; /*about me, skills, portfolio, work with me, thank for viziting, project information, details*/
+  color: aqua; 
   font-family: 'Comic Sans MS';
 }
 
@@ -139,7 +139,7 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 400;
-  color: aqua; /* name, profile, location, email... top skills */
+  color: aqua;
   font-size: 1.1rem;
   font-family: "Comic Sans MS";
 }
@@ -147,13 +147,13 @@ a:hover {
 /*--/ Title A /--*/
 .title-box {
   margin-bottom: 4rem;
-  font-family: "Comic Sans MS"; /* under SKILLS, under PORTFOLIO */
+  font-family: "Comic Sans MS"; 
 }
 
 .title-a {
   text-decoration: none;
   font-size: 3rem;
-  font-weight: bold; /* SKILLS, PORTFOLIO */
+  font-weight: bold; 
   text-transform: uppercase;
   font-family: "Comic Sans MS";
   
@@ -161,7 +161,7 @@ a:hover {
 
 .subtitle-a {
   text-decoration: none;
-  color: rgb(178, 212, 212); /* under SKILLS, under PORTFOLIO */
+  color: rgb(178, 212, 212); 
   font-size: 1rem;
   
   
@@ -169,18 +169,18 @@ a:hover {
 
 .line-mf {
   width: 100px;
-  height: 3px; /* the line under SKILLS, under PORTFOLIO */
+  height: 3px; 
   background-color: #0078ff;
   margin: 0 auto;
 }
 
 /*--/ Title Left /--*/
 .title-box-2 {
-  margin-bottom: 3rem; /* space under ABOUT ME, under WORK WITH ME, under Thanks for viziting */
+  margin-bottom: 3rem; 
 }
 
 .title-left {
-  font-size: 2.5rem; /* size ABOUT ME, WORK WITH ME, Thanks for viziting */
+  font-size: 2.5rem; 
   position: relative;
   font-family: "Comic Sans MS";
 }
@@ -189,7 +189,7 @@ a:hover {
   position: absolute;
   width: 100px;
   height: 3px;
-  background-color: #0078ff; /* line under ABOUT ME, under WORK WITH ME, Thanks for viziting */
+  background-color: #0078ff; 
   bottom: -12px;
 }
 
@@ -707,7 +707,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem; /*coming soon, data scientist...*/
+    font-size: 4.5rem; 
   }
 }
 .hero .hero-subtitle {
@@ -744,13 +744,13 @@ a:hover {
 } */
 
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: black; /*slash*/
+  color: black; 
 } 
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: black; /* 8bit*/
+  color: black; 
 } 
 .hero-single .breadcrumb a {
-  color: black; /*Home*/
+  color: black; 
 } 
 
 /*--------------------------------------------------------------
@@ -761,7 +761,7 @@ a:hover {
   padding-bottom: 14rem;
 }
 .about-mf .about-img {
-  margin-bottom: 2rem; /* space between img and progress */
+  margin-bottom: 2rem; 
 }
 .about-mf .about-img img {
   margin-left: 10px;
@@ -774,11 +774,11 @@ a:hover {
 }
 
 .skill-mf span {
-  color: rgb(178, 212, 212); /*top skills: text of python, css...*/
+  color: rgb(178, 212, 212); 
   
 }
 .skill-mf .progress {
-  background-color: #cde1f8; /*line of the progress*/
+  background-color: #cde1f8; 
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0.7rem;
   height: 0.7rem;
@@ -829,7 +829,7 @@ a:hover {
   font-family: "Comic Sans MS";
 }
 .service-box .s-description {
-  color: rgb(178, 212, 212); /*text under Machine Learning, Data Visualization*/
+  color: rgb(178, 212, 212); 
   font-size: 18px;
   font-weight: lighter;
 }
@@ -865,7 +865,7 @@ a:hover {
 # PORTFOLIO
 --------------------------------------------------------------*/
 .work-box {
-  margin-bottom: 3rem; /*space between boxes of projects*/
+  margin-bottom: 3rem; 
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: black;
@@ -894,12 +894,12 @@ a:hover {
   padding: 2rem 3% 1rem 4%;
 }
 .work-content .w-more {
-  color: rgb(178, 212, 212); /* / 2021 */
+  color: rgb(178, 212, 212); 
   font-size: 18px;
   font-weight: lighter;
 }
 .work-content .w-more .w-ctegory {
-  color: rgb(178, 212, 212); /* Data Visualization, Data Analysis */
+  color: rgb(178, 212, 212); 
   font-size: 18px;
   font-weight: lighter;
 }
@@ -909,7 +909,7 @@ a:hover {
   float: right;
 } 
 .work-content .w-like a {
-  color: rgba(230, 118, 230, 0.582); /* circle with + */
+  color: rgba(230, 118, 230, 0.582); 
   
 }
 .work-content .w-like .num-like {
@@ -937,7 +937,7 @@ a:hover {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
-  background-color: black; /*the points under the pictures*/
+  background-color: black; 
   opacity: 1;
   border: 2px solid #0078ff;
   
@@ -946,7 +946,7 @@ a:hover {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   width: 15px;
   height: 15px;
-  background-color: black; /*the points under the pictures*/
+  background-color: black; 
   opacity: 1;
   border: 2px solid rgba(230, 118, 230, 0.582);
 }
@@ -959,7 +959,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(230, 118, 230, 0.582); /*полоска*/
+  border-bottom: 1px solid rgba(230, 118, 230, 0.582); 
 }
 .portfolio-details .portfolio-info ul {
   list-style: none;
