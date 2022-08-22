@@ -454,9 +454,9 @@ a:hover {
   letter-spacing: 1px;
 }
 #header .logo a {
-  color: rgb(178, 212, 212); /*logo 'Home'*/
+  color: rgb(178, 212, 212); 
   font-family: "Comic Sans MS";
-  font-size: 24px; /*size 'Home'*/
+  font-size: 24px; 
 }
 #header .logo img {
   max-height: 40px;
@@ -586,7 +586,7 @@ a:hover {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
