@@ -905,8 +905,7 @@ a:hover {
   font-weight: lighter;
 }
 .work-content .w-like {
-  font-size: 2.5rem;
-  /*color: aqua;*/
+  font-size: 2.5rem;  
   float: right;
 } 
 .work-content .w-like a {
