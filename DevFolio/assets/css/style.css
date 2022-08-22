@@ -699,11 +699,11 @@ a:hover {
   opacity: 0.9;
 }
 .hero .hero-title {
-  color: aqua;
+  color: black;
   font-weight: 600;
   font-size: 3rem;
   font-family: "Comic Sans MS";
-  -webkit-text-stroke: 1.5px black; 
+  -webkit-text-stroke: 1.2px aqua; 
   
 }
 @media (min-width: 768px) {
