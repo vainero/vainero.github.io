@@ -640,8 +640,11 @@ a:hover {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: rgb(223, 59, 223);
+  color: rgb(223, 59, 223);  
+}
+@font-face {
   font-family: "Comic Sans MS";
+  src: url(sansation_light.woff);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: aqua;
