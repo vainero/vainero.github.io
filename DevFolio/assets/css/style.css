@@ -640,10 +640,10 @@ a:hover {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: aqua;
+  color: rgb(223, 59, 223);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #0078ff;
+  color: aqua
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -657,7 +657,7 @@ a:hover {
   opacity: 1;
   visibility: visible;
   background: black;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px black;
 }
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
