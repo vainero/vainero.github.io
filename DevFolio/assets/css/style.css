@@ -610,7 +610,7 @@ a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background: black;
   transition: 0.3s;
   z-index: 999;
 }
@@ -641,9 +641,11 @@ a:hover {
   padding: 10px 20px;
   font-size: 15px;
   color: rgb(223, 59, 223);
+  font-family: "Comic Sans MS";
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: aqua
+  color: aqua;
+  font-family: "Comic Sans MS";
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
